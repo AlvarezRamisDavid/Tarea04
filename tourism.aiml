@@ -4,3 +4,35 @@
 
 <category>
     <pattern> Háblame de *</pattern>
+    <template>
+        <condition name="it">
+            <li value="*"><srai>Háblame de <get name="it"/></srai></li>
+            <li>No he entendido tu petición</li>
+        </condition>
+         Aquí hay alguna información sobre <star/>.
+        <button>
+            <text>Haga clic aquí</text>
+            <url>https://es.wikipedia.org/wiki/<star/></url>
+        </button>
+    </template>
+</category>
+<category>
+    <pattern> Enséñame el mapa de *</pattern>
+    <template>
+         Aquí tienes el mapa de <star/>.
+        <button>
+            <text>Haga clic aquí</text>
+            <url>https://www.google.co.uk/maps?q=<star/></url>
+        </button>
+    </template>    
+</category>
+<category>
+    <pattern> Que tiempo hace en *</pattern>
+    <template>
+         Espero que haga buen día en <star/>.
+        <button>
+            <text>Haga clic aquí para ver el pronóstico</text>
+            <url>https://www.wather-forecast.com/locations/<star/>/forecasts/latest</url>
+        </button>
+    </template>    
+</category>
