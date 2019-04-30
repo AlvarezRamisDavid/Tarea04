@@ -2,24 +2,24 @@
 <aiml version="1.0">
 
 <category>
-<pattern>_ MY HOROSCOPE</pattern>
+<pattern>_ Mi horóscopo</pattern>
 <template>
-<srai>HOROSCOPE</srai>
+<srai>horóscopo</srai>
 </template>
 </category>
 
 <category>
-<pattern>_ MY HOROSCOPE *</pattern>
+<pattern>_ Mi horóscopo *</pattern>
 <template>
-<srai>HOROSCOPE</srai>
+<srai>horóscopo</srai>
 </template>
 </category>
 
 <category>
-<pattern>HOROSCOPE</pattern>
+<pattern>Horóscopo</pattern>
 <template>
 <think>
-<set name="topic">Horoscope</set>
+<set name="topic">Horóscopo</set>
 </think>
 <condition>
 <li name="sign" value="*">
@@ -27,220 +27,221 @@
 <li><srai><get name="sign"/></srai></li>
 </random>
 </li>
-<li>What star sign are you?</li>
+<li>¿Qué signo del zodiaco es usted?</li>
 </condition>  
 </template>
 </category>
 
-<topic name="Horoscope">
+<topic name="Horóscopo">
 <category>
 <pattern>*</pattern>
-<that>WHAT STAR SIGN ARE YOU</that>
-<template>There's no such star sign as<star/>.
+<that>¿Qué signo del zodiaco es usted?</that>
+<template>No existe tal signo de zodiaco <star/>.
 </template>
 </category>
 </topic>
 
-<topic name="Horoscope">
+<topic name="Horóscopo">
 <category>
 <pattern>ARIES</pattern>
-<template>ARIES - March 21st - April 20th<br/>
+<template>ARIES - 21 Marzo a  20 Abril<br/>
 <think><set name="sign">Aries</set></think>
-<srai>RANDOM HOROSCOPE</srai>
+<srai>HORÓSCOPO ALEATORIO</srai>
 </template>
 </category>
 </topic>
 
-<topic name="Horoscope">
+<topic name="Horóscopo">
 <category>
-<pattern>TAURUS</pattern>
-<template>TAURUS - April 21st - May 21st<br/>
-<think><set name="sign">Taurus</set></think>
-<srai>RANDOM HOROSCOPE</srai>
+<pattern>Tauro</pattern>
+<template>Tauro - 21 April a 21 Mayo<br/>
+<think><set name="sign">Tauro</set></think>
+<srai>HORÓSCOPO ALEATORIO</srai>
 </template>
 </category>
 </topic>
 
-<topic name="Horoscope">
+<topic name="Horóscopo">
 <category>
-<pattern>GEMINI</pattern>
-<template>GEMINI - May 22nd - June 21st<br/>
-<think><set name="sign">Gemini</set></think>
-<srai>RANDOM HOROSCOPE</srai>
+<pattern>Géminis</pattern>
+<template>Géminis - 22 Mayo a 21 Junio<br/>
+<think><set name="sign">Géminis</set></think>
+<srai>HORÓSCOPO ALEATORIO</srai>
 </template>
 </category>
 </topic>
 
-<topic name="Horoscope">
+<topic name="Horóscopo">
 <category>
-<pattern>CANCER</pattern>
-<template>CANCER - June 22nd - July 22nd<br/>
+<pattern>Cancer</pattern>
+<template>Cancer - 22 Junio a 22 Julio <br/>
 <think><set name="sign">Cancer</set></think>
-<srai>RANDOM HOROSCOPE</srai>
+<srai>HORÓSCOPO ALEATORIO</srai>
 </template>
 </category>
 </topic>
 
-<topic name="Horoscope">
+<topic name="Horóscopo">
 <category>
-<pattern>LEO</pattern>
-<template>LEO - July 23rd - August 21st<br/>
+<pattern>Leo</pattern>
+<template>Leo - 23 Julio a 21 Agosto <br/>
 <think><set name="sign">Leo</set></think>
-<srai>RANDOM HOROSCOPE</srai>
+<srai>HORÓSCOPO ALEATORIO</srai>
 </template>
 </category>
 </topic>
 
-<topic name="Horoscope">
+<topic name="Horóscopo">
 <category>
-<pattern>VIRGO</pattern>
-<template>VIRGO - August 22nd - September 23rd<br/>
+<pattern>Virgo</pattern>
+<template>Virgo - 22 Agosto a 23 Septiembre <br/>
 <think><set name="sign">Virgo</set></think>
-<srai>RANDOM HOROSCOPE</srai>
+<srai>HORÓSCOPO ALEATORIO</srai>
 </template>
 </category>
 </topic>
 
-<topic name="Horoscope">
+<topic name="Horóscopo">
 <category>
-<pattern>LIBRA</pattern>
-<template>LIBRA - September 24th - October 23rd<br/>
+<pattern>Libra</pattern>
+<template>Libra - 24 Septiembre a 23 Octubre <br/>
 <think><set name="sign">Libra</set></think>
-<srai>RANDOM HOROSCOPE</srai>
+<srai>HORÓSCOPO ALEATORIO</srai>
 </template>
 </category>
 </topic>
 
-<topic name="Horoscope">
+<topic name="Horóscopo">
 <category>
-<pattern>SCORPIO</pattern>
-<template>SCORPIO - October 24th - November 22nd<br/>
-<think><set name="sign">Scorpio</set></think>
-<srai>RANDOM HOROSCOPE</srai>
+<pattern>Escorpio</pattern>
+<template>Escorpio - 24 Octubre a 22 Noviembre <br/>
+<think><set name="sign">Escorpio</set></think>
+<srai>HORÓSCOPO ALEATORIO</srai>
 </template>
 </category>
 </topic>
 
-<topic name="Horoscope">
+<topic name="Horóscopo">
 <category>
-<pattern>SAGITTARIUS</pattern>
-<template>SAGITTARIUS - November 23rd - December 22nd<br/>
-<think><set name="sign">Sagittarius</set></think>
-<srai>RANDOM HOROSCOPE</srai>
+<pattern>Sagitario</pattern>
+<template>Sagitario - 23 Noviembre a 22 Diciembre <br/>
+<think><set name="sign">Sagitario</set></think>
+<srai>HORÓSCOPO ALEATORIO</srai>
 </template>
 </category>
 </topic>
 
-<topic name="Horoscope">
+<topic name="Horóscopo">
 <category>
-<pattern>CAPRICORN</pattern>
-<template>CAPRICORN - December 23rd - January 20th<br/>
-<think><set name="sign">Capricorn</set></think>
-<srai>RANDOM HOROSCOPE</srai>
+<pattern>Capricornio</pattern>
+<template>Capricornio - 23 Diciembre a 20 Enero <br/>
+<think><set name="sign">Capricornio</set></think>
+<srai>HORÓSCOPO ALEATORIO</srai>
 </template>
 </category>
 </topic>
 
-<topic name="Horoscope">
+<topic name="Horóscopo">
 <category>
-<pattern>AQUARIUS</pattern>
-<template>AQUARIUS - January 21st - February 19th<br/>
-<think><set name="sign">Aquarius</set></think>
-<srai>RANDOM HOROSCOPE</srai>
+<pattern>Acuario</pattern>
+<template>Acuario - 21 Enero a 19 Febrero <br/>
+<think><set name="sign">Acuario</set></think>
+<srai>HORÓSCOPO ALEATORIO</srai>
 </template>
 </category>
 </topic>
 
-<topic name="Horoscope">
+<topic name="Horóscopo">
 <category>
-<pattern>PISCES</pattern>
-<think><set name="sign">Pisces</set></think>
-<template>Pisces - February 20th - March 20th<br/>
-<srai>RANDOM HOROSCOPE</srai>
+<pattern>Piscis</pattern>
+<template>Piscis - 20 Febrero a 20 Marzo<br/>
+<think><set name="sign">Piscis</set></think>
+<srai>HORÓSCOPO ALEATORIO</srai>
 </template>
 </category>
 </topic>
 
 
-<topic name="Horoscope">
+<topic name="Horóscopo">
 <category>
-<pattern>RANDOM HOROSCOPE</pattern>
+<pattern>HORÓSCOPO ALEATORIO</pattern>
 <template>
-Your horoscope for <date format="%x"/><br/><br/>
+Tu horóscopo para <date format="%x"/><br/><br/>
 <random>
-<li>Today, will be interesting as</li>
-<li>If you have money worries then it's good news as</li>
-<li>If you are single, great news when</li>
-<li>The stars align in your sign over the next few days and</li>
+<li>Hoy, será interesante como</li>
+<li>Si tienes problemas de dinero, entonces son buenas noticias</li>
+<li>
+Si eres soltero, buenas noticias cuando</li>
+<li>Las estrellas se alinean en tu signo en los próximos días y</li>
 </random>
 <random>
-<li>Jupiter and Venus</li>
-<li>Mars and Capricorn</li>
-<li>the Sun along with Mercury</li>
-<li>three different planets</li>
+<li>Jupiter y Venus</li>
+<li>Marte y capricornio</li>
+<li>el sol junto con mercurio</li>
+<li>tres planetas diferentes</li>
 </random>
 <random>
-<li>enter your sign.</li>
-<li>align in Pisces.</li>
-<li>are visible near Neptune.</li>
-<li>come together.</li>
+<li>introduce tu signo.</li>
+<li>Alinearse en Piscis.</li>
+<li>Son visibles cerca de Neptuno.</li>
+<li>reunirse.</li>
 </random>
 <random>
-<li>This will mean</li>
-<li>A rare event such as this will ensure that</li>
-<li>Spend your day wisely as</li>
-<li>Everything goes right for you,</li>
+<li>Esto significará</li>
+<li>Un evento raro como este asegurará que</li>
+<li>Pase su día sabiamente como</li>
+<li>Todo va bien para ti,</li>
 </random>
 <random>
-<li>fortune smiles on you and</li>
-<li>Lady Luck is on your side and</li>
-<li>love is not far away and</li>
-<li>this will be a great day and</li>
+<li>La fortuna te sonríe y</li>
+<li>La diosa fortuna está de tu lado y</li>
+<li>el amor no esta lejos y</li>
+<li>este será un gran día y</li>
 </random>
 <random>
-<li>you will not put a foot wrong.</li>
-<li>someone you have a crush on feels the same way.</li>
-<li>a possible Lottery win is in the stars.</li>
-<li>you re-discover an old heirloom.</li>
+<li>No pondrás un pie mal.</li>
+<li>Alguien de quien estés enamorado siente lo mismo.</li>
+<li>Una posible victoria de la Lotería está en las estrellas.</li>
+<li>Re-descubre una antigua reliquia.</li>
 </random>
 <random>
-<li>However,</li>
-<li>Good luck may not last though,</li>
-<li>It's not all good news, </li>
-<li>Be careful though,</li>
+<li>Sin embargo,</li>
+<li>La buena suerte no puede durar, sin embargo,</li>
+<li>No todas son buenas noticias. </li>
+<li>Ten cuidado</li>
 </random>
 <random>
-<li>Saturn is not far away from Venus so</li>
-<li>the Moon soon moves through Aries and</li>
-<li>Neptune's alignment with Pluto means</li>
-<li>not all the planets are happy and</li>
+<li>Saturno no está lejos de Venus, así que</li>
+<li>la Luna pronto se mueve a través de Aries y</li>
+<li>La alineación de Neptuno con Plutón significa</li>
+<li>No todos los planetas son felices y</li>
 </random>
 <random>
-<li>things may not go according to plan.</li>
-<li>a jealous colleague is watching you closely.</li>
-<li>something you did last week will come back to haunt you.</li>
-<li>you will lose a valuable object.</li>
+<li>Las cosas pueden no ir de acuerdo al plan.</li>
+<li>Un colega celoso te está mirando de cerca.</li>
+<li>algo que hiciste la semana pasada volverá para atormentarte.</li>
+<li>perderás un objeto valioso.</li>
 </random>
 <random>
-<li>So, in summary,</li>
-<li>Overall,</li>
-<li>After all,</li>
-<li>Taking everything into account,</li>
+<li>Así que, en resumen,</li>
+<li>En general,</li>
+<li>Después de todo,</li>
+<li>Tomando todo en cuenta,</li>
 </random>
 <random>
-<li>the planets can be fickle but are rising in Libra so</li>
-<li>Mars is an angry planet but is weak as Scorpio rises in the East so</li>
-<li>keep a close eye on those around you but</li>
-<li>you know your own mind very well so</li>
+<li>Los planetas pueden ser volubles pero están aumentando en Libra, así que</li>
+<li>Marte es un planeta enojado, pero es débil a medida que Escorpio se eleva en el Este por lo que</li>
+<li>mantener una estrecha vigilancia sobre los que te rodean, pero</li>
+<li>conoces tu propia mente muy bien así</li>
 </random>
 <random>
-<li>enjoy your day.</li>
-<li>make time for yourself today.</li>
-<li>let today be a fun day for you.</li>
-<li>forget the bad things and look forward to a great day.</li>
+<li>disfruta tu día.</li>
+<li>Date tiempo para ti mismo hoy.</li>
+<li>deja que hoy sea un día divertido para ti.</li>
+<li>Olvida las cosas malas y espera un gran día..</li>
 </random>
 <think>
-<set name="topic">Future</set>
+<set name="topic">Futuro</set>
 </think>
 </template>
 </category>
